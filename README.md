@@ -31,6 +31,7 @@ The program simulates a "Fetch-Decode-Execute" cycle found in computer processor
 ```bash
 gcc command_interpreter.c -o interpreter
 ./interpreter
+
 set count 0
 set limit 5
 add count 1
