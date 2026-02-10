@@ -29,4 +29,11 @@ The program simulates a "Fetch-Decode-Execute" cycle found in computer processor
 ## How to Run
 **1. Compile the code:**
 ```bash
-gcc main.c -o interpreter
+gcc command_interpreter.c -o interpreter
+./interpreter
+set count 0
+set limit 5
+add count 1
+show count
+goback 2 count limit
+exit
