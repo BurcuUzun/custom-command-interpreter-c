@@ -30,11 +30,22 @@ The program simulates a "Fetch-Decode-Execute" cycle found in computer processor
 **1. Compile the code:**
 ```bash
 gcc command_interpreter.c -o interpreter
-./interpreter
+```
+### 2. Run
+Execute the compiled binary:
 
+```bash
+./interpreter
+```
+### 3. Input Format
+
+**Example Test Case:**
+```text
 set count 0
 set limit 5
 add count 1
 show count
 goback 2 count limit
 exit
+```
+
